@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+p,
+input[type=text] {
+
+    font-family: 'Alata', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    background-color: #eeeeeeb2;
+}
+
+
+input[type=text],
+.button {
+    padding: 1.2rem 1.8rem;
+}
+
+input[type=text] {
+
+    flex-grow: 2;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.button {
+
+    background-color: #1976d2;
+    cursor: pointer;
+    -webkit-transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -o-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+
+}
+
+.button:hover {
+
+    background: #578fc7;
+
+}
